@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 // parse requests of content-type - application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: true }));
 
-// main route
+// Main route
 app.get("/", (req, res) => {
   res.json({ message: "Bienvenido al API de Adopta un amigo." });
 });
